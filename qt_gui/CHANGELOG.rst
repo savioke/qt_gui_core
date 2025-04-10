@@ -2,8 +2,8 @@
 Changelog for package qt_gui
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-04-10)
+--------------------
 * [Melodic] Fix 'dict_keys' object not subscriptable (`#245 <https://github.com/savioke/qt_gui_core/issues/245>`_)
   dict_keys() is not indexable in Python 3.
   Backport of fix for Melodic and Noetic.

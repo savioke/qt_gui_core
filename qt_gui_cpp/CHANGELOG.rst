@@ -2,8 +2,8 @@
 Changelog for package qt_gui_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-04-10)
+--------------------
 * Merge pull request `#1 <https://github.com/savioke/qt_gui_core/issues/1>`_ from v4hn/pr-obese-sip5
   account for changed library suffix with sip5
 * account for changed library suffix with sip5
