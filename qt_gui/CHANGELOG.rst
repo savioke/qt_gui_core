@@ -2,6 +2,17 @@
 Changelog for package qt_gui
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [Melodic] Fix 'dict_keys' object not subscriptable (`#245 <https://github.com/savioke/qt_gui_core/issues/245>`_)
+  dict_keys() is not indexable in Python 3.
+  Backport of fix for Melodic and Noetic.
+* Update Maintainers (`#240 <https://github.com/savioke/qt_gui_core/issues/240>`_)
+  Previous: @dirk-thomas
+  New: @cottsay, @sloretz
+* Allow hide title in standalone (`#235 <https://github.com/savioke/qt_gui_core/issues/235>`_)
+* Contributors: Adi Vardi, Michael Jeronimo, Shane Loretz
+
 0.4.2 (2020-07-24)
 ------------------
 * fix exporting perspective for Python 3.6 (`#228 <https://github.com/ros-visualization/qt_gui_core/issues/228>`_)

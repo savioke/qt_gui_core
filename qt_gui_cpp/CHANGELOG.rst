@@ -2,6 +2,21 @@
 Changelog for package qt_gui_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#1 <https://github.com/savioke/qt_gui_core/issues/1>`_ from v4hn/pr-obese-sip5
+  account for changed library suffix with sip5
+* account for changed library suffix with sip5
+  uses a new variable exposed by sip_helper.cmake
+* Fix qt_gui_cpp_sip_LIBRARY_DIRS
+* Add missing include
+* Add missing build dependency
+* remove version as it's deprecated and generate stderr output when building (`#176 <https://github.com/savioke/qt_gui_core/issues/176>`_)
+* Update Maintainers (`#240 <https://github.com/savioke/qt_gui_core/issues/240>`_)
+  Previous: @dirk-thomas
+  New: @cottsay, @sloretz
+* Contributors: Jochen Sprickerhof, Michael Görner, Mikael Arguedas, Shane Loretz, v4hn
+
 0.4.2 (2020-07-24)
 ------------------
 * quiet upstream Qt5 warnings (`#210 <https://github.com/ros-visualization/qt_gui_core/issues/210>`_) (`#229 <https://github.com/ros-visualization/qt_gui_core/issues/229>`_)
